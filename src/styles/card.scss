@@ -66,6 +66,7 @@
 
   &__price-value {
     font-size: 16px;
+    line-height: 18px;
     font-weight: 700;
     color: #060b35;
   }
@@ -89,6 +90,7 @@
 
     &:hover {
       background-color: transparent;
+      color: #00acdc;
     }
   }
 }
