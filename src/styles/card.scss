@@ -78,7 +78,7 @@
     height: 40px;
     border-radius: 5px;
     background-color: #00acdc;
-    border: 1px solid transparent;
+    border: 1px solid #00acdc;
     box-sizing: border-box;
     font-family: inherit;
     font-size: 14px;
@@ -89,8 +89,6 @@
 
     &:hover {
       background-color: transparent;
-      border-color: #00acdc;
-      color: #00acdc;
     }
   }
 }
