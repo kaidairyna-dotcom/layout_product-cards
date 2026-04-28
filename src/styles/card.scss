@@ -49,7 +49,7 @@
     font-weight: 700;
   }
 
-  img {
+  &__image {
     width: 100%;
     height: 134px;
     object-fit: contain;
@@ -77,17 +77,18 @@
   }
 
   &__button {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 40px;
     border-radius: 5px;
     background-color: #00acdc;
-    cursor: pointer;
-    border: none;
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
+    text-decoration: none;
 
     &:hover {
       background-color: transparent;
